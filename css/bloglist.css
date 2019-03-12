@@ -112,19 +112,21 @@ body {
         margin: 20% auto;
 }
 
-@media only screen and (max-width : 930px )
+@media only screen and (max-width : 1000px )
 {
     .post-title{
-        font-size: 18px;
+        font-size: 17px;
     }
 }
-@media only screen and (max-width: 860px) {
+/*
+@media only screen and (max-width: 880px) {
     .post-title{
         font-size: 15px;
     }
    
 }
-@media only screen and (max-width: 650px) {
+*/
+@media only screen and (max-width: 700px) {
     
     .post {
         width:80%;
