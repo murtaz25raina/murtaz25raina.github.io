@@ -140,3 +140,64 @@ body {
         .post-title{
         font-size: 16px;}
     }
+
+
+
+
+
+
+
+
+
+#ntmmbr {
+    margin: 0px;
+}
+
+
+.close {
+    background-color:#818181;
+}
+label {
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+}
+.h5,h5 {
+   font-family: 'Abel' !important;
+    font-style: normal;
+    font-weight: 1000 !important;
+    font-size: 27px !important;
+}
+
+#bot {
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+}
+.modal-header {
+        border-bottom: 3px solid #d2d2d2 !important;
+        margin: 0px 15px;
+}
+.modal-dialog {
+        top: 26%;
+}
+/*
+.modal-title{
+    text-align: center;
+    width: 100%;
+}
+.inbtn {
+    width: 100%;
+    padding: 5px;
+    margin-top: 12px;
+}
+.modal-dialog {
+    top: 10%;
+}
+*/
+

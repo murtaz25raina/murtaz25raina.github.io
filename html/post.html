@@ -5,6 +5,7 @@
         <link href='..\css\header.css' rel='stylesheet' type='text/css'>
         <link rel="stylesheet" href="..\font-awesome-4.7.0/css/font-awesome.min.css">
         <link href='..\css\font.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <style>        
     </style>     
 </head>
@@ -47,9 +48,88 @@
         <div id="listcomments">
         
         </div>
+        
+        <div>
+
+    	<!-- Insert code for Sign In modal here -->
+         <div class="modal" id="mySigninModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Welcome Back!</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+          <form>
+  <div class="form-group">
+    <label for="exampleInputUname1">Enter Username</label>
+    <input type="text" class="form-control" id="exampleInputUname1" aria-describedby="emailHelp" placeholder="Enter Username" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" required>
+  </div>
+    <div>
+    <button type="submit" class="btn btn-success inbtn">Sign In</button></div>
+</form>
+          <div id="bot">
+        <p id="ntmmbr">Not a member? <a href="" data-target="#mySignupModal" data-toggle="modal" data-dismiss="modal">Sign Up</a></p>
+      </div>
+          </div>
+    </div>
+  </div>
+</div>
+    </div>
+
+    <div>
+
+    	<!-- Insert code for Sign Up modal here -->
+        <div class="modal" id="mySignupModal">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Get Started</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true" onclick="showSS()">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+       <form>
+  <div class="form-group">
+    <label for="exampleInputName1">Full Name</label>
+    <input type="text" class="form-control" id="exampleInputName1" aria-describedby="emailHelp" placeholder="Enter Full Name" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleUname1">Username</label>
+    <input type="text" class="form-control" id="exampleInputUname1" aria-describedby="emailHelp" placeholder="Enter Username" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">Password</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Enter Password" required>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputCPassword1">Confirm Password</label>
+    <input type="password" class="form-control" id="exampleInputCPassword1" placeholder="Confirm Password" required>
+  </div>
+           <div>
+        <button type="submit" class="btn btn-success inbtn">Sign Up</button>
+      </div>
+</form>
+      </div>
+      
+    </div>
+  </div>
+</div>
+    </div>
      </div>
     <script src="..\js\post.js" defer></script>
     <script src="..\js\header.js">             
     </script>
+    
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     
 </body>
