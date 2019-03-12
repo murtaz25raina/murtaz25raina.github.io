@@ -20,6 +20,7 @@ padding: 0px 70px;
 }
 #blogBody {
         text-align: justify;
+    font-family:serif;
 }
 #like {
     background-color: #ef3b65;
