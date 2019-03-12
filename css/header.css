@@ -1,0 +1,45 @@
+/* Set a style for all elements inside the header i.e. Sign Up button, Sign In button, 
+the title "ScriBBler" & the sub-heading below "ScriBBLer" */
+#signup,#signin {
+    float: right;
+    color: white;
+    background-color: blue;
+    padding: 10px;
+    margin: 13px 3px;
+    font-family: 'Josefin Sans';
+    font-style: normal;
+    border-radius: 6px;
+}
+#bar {
+    display: none;
+}
+#logo {
+    text-decoration: none;
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 1000;
+    font-size: 60px;
+    color :blue;
+}
+.header {
+    padding: 13px;
+}
+#logo2 {
+    font-family: 'Cookie';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    margin-top: 5px;
+}
+@media only screen and (max-width: 400px) {
+    #signup,#signin  {
+       padding: 5px;
+    margin: 13px 3px;
+    }
+    #logo{
+        font-size: 40px;
+    }
+    #logo2 {
+        font-size: 13px;
+    }
+}
