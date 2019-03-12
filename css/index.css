@@ -20,6 +20,18 @@ body{
     height:40%;
     
 }
+#ntmmbr {
+    margin: 0px;
+}
+#bot {
+    padding: 5px;
+    margin-top: 10px;
+    text-align: center;
+    font-family: 'Abel';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 17px;
+}
 .close {
     background-color:#818181;
 }
