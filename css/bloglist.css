@@ -7,11 +7,11 @@ body {
     height: 20%;
     background: #fff;
     box-shadow:0 4px 10px 0 rgba(17, 4, 63, 0.2),0 4px 20px 0 rgba(79, 19, 97, 0.19);
-    margin: 10px 10px 10px 20px;
+    margin: 10px 70px 10px 70px;
     float:left;
     border-radius: 15px;
     flex-wrap: wrap;
-    width: 45%;
+    width: 38%;
 }
 
 .modal-title{
@@ -112,10 +112,14 @@ body {
         margin: 20% auto;
 }
 
-@media only screen and (max-width : 1000px )
+@media only screen and (max-width : 1200px )
 {
     .post-title{
         font-size: 17px;
+    }
+    .post {
+        margin: 10px 10px 10px 20px;
+        width: 45%;
     }
 }
 /*
@@ -139,6 +143,10 @@ body {
     
         .post-title{
         font-size: 16px;}
+    .post {
+        margin: 10px 10px 10px 20px;
+        width: 80%;
+    }
     }
 
 

@@ -76,9 +76,19 @@ padding: 0px 70px;
 .editcmnt1 {
     width: 100%;
     resize: none;
+    overflow: hidden;
+}
+.editcmnt2 {
+    width: 30%;
+    text-align: center;
+    border: 1px solid  #ef3b65;
+    resize: none;
 }
 /* Set a style for all the remaining elements like Like button, Edit button, Comment button and so on. */
 
+#liketxt {
+    margin-top: 10px;
+}
 
 
 
